@@ -1,2 +1,1 @@
-# seeds-learning-hub
-🌻 Seeds Learning Hub - Live content complementary material
+![banner](/images/banner_seeds.png)

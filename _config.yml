@@ -1,0 +1,34 @@
+title: "DANDILYONN SEEDS"
+author: "Giovane Iwamoto"
+description: "Dandilyonn - Earth is Worth it"
+permalink: /:title/
+lang: "en"
+excerpt_separator: "\n\n\n"
+date_format: "%B %d, %Y"
+
+# Layout
+
+show_excerpts: true        # show article excerpts on the home page
+show_frame: true           # adds a gray frame to the site
+show_sidebar: true        # show a sidebar instead of the usual header
+minimal: true             # use a dark header
+
+# Menu
+
+navigation:                # accepts {file, title, url, icon, sidebaricon}
+  - {file: "index.html"}
+  - {file: "README.md"}
+
+external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
+  - {title: Mail, icon: envelope, url: "mailto:giovaneiwamoto@gmail.com"}
+  - {title: Github, icon: github, url: "https://github.com/GiovaneIwamoto"}
+  - {title: Site, icon: rss, url: "https://www.dandilyonn.com"}
+
+comments:
+#  disqus_shortname: ""    # see https://disqus.com/
+#  isso_domain: ""         # see https://posativ.org/isso/
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+

@@ -1,0 +1,10 @@
+.DS_Store
+.bundle
+.jekyll-cache
+.sass-cache
+Gemfile.lock
+_site
+*.gem
+example
+.env
+*.ipynb
